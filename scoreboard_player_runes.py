@@ -34,4 +34,4 @@ class TemplateModifier(TemplateModifierBase):
 
 TemplateModifier(site, 'Scoreboard/Player',
                  page_list=site.pages_using('Scoreboard/Player/Runes'),
-                 summary=summary).run()
+                 summary=summary, lag=10).run()
